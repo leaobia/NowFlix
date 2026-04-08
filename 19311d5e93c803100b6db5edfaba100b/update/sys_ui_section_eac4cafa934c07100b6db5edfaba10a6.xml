@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Ratings" section_id="eac4cafa934c07100b6db5edfaba10a6" sys_domain="global" table="x_1960263_nowflix_media" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>avarage_rating</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-08 11:57:18</sys_created_on>
+            <sys_id>5925c63e934c07100b6db5edfaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1960263_nowflix_media" sys_domain="global" view="Default view">eac4cafa934c07100b6db5edfaba10a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-08 11:57:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>imdb_rating</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-08 11:57:18</sys_created_on>
+            <sys_id>d525c63e934c07100b6db5edfaba1068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1960263_nowflix_media" sys_domain="global" view="Default view">eac4cafa934c07100b6db5edfaba10a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-08 11:57:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-08 11:57:18</sys_created_on>
+            <sys_id>5525c63e934c07100b6db5edfaba1069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1960263_nowflix_media" sys_domain="global" view="Default view">eac4cafa934c07100b6db5edfaba10a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-08 11:57:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>metascore</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-08 11:57:18</sys_created_on>
+            <sys_id>d125c63e934c07100b6db5edfaba106a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1960263_nowflix_media" sys_domain="global" view="Default view">eac4cafa934c07100b6db5edfaba10a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-08 11:57:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>awards</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-08 11:57:18</sys_created_on>
+            <sys_id>5125c63e934c07100b6db5edfaba106b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1960263_nowflix_media" sys_domain="global" view="Default view">eac4cafa934c07100b6db5edfaba10a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-08 11:57:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Ratings</caption>
+            <header>false</header>
+            <name>x_1960263_nowflix_media</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-08 11:55:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eac4cafa934c07100b6db5edfaba10a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1960263_nowflix_media</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
+            <sys_update_name>sys_ui_section_eac4cafa934c07100b6db5edfaba10a6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-08 11:55:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

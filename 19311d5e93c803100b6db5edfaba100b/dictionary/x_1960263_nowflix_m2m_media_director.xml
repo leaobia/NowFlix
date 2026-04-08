@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1a6d0ebe938c07100b6db5edfaba1049" label="x_1960263_nowflix_m2m_Medias_directors" max_length="40" name="x_1960263_nowflix_m2m_media_director" type="collection">
+        <element attributes="encode_utf8=false" label="Medias" max_length="32" name="x_1960263_nowflix_media" reference="x_1960263_nowflix_media" type="reference"/>
+        <element attributes="encode_utf8=false" label="directors" max_length="32" name="x_1960263_nowflix_director" reference="x_1960263_nowflix_director" type="reference"/>
+        <index name="index">
+            <element name="x_1960263_nowflix_director"/>
+        </index>
+        <index name="index2">
+            <element name="x_1960263_nowflix_media"/>
+        </index>
+    </element>
+</database>
