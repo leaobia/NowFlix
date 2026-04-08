@@ -58,19 +58,19 @@
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Serie</label>
+            <label>Series</label>
             <language>en</language>
             <name>x_1960263_nowflix_media</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 14:54:15</sys_created_on>
+            <sys_created_on>2026-04-08 11:39:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 14:54:15</sys_updated_on>
-            <value>serie</value>
+            <sys_updated_on>2026-04-08 11:39:57</sys_updated_on>
+            <value>series</value>
         </sys_choice>
     </sys_choice>
 </record_update>
