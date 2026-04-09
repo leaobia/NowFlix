@@ -7,13 +7,22 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Nowflix">38629f7293c447100b6db5edfaba107d</category>
-        <checked_out/>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<style>.center-text {
+  text-align:center;
+  margin:20px auto;
+  max-width:700px;
+  line-height:1.6;
+  font-size:14pt;
+  font-family:terminal,monaco,sans-serif;
+}
+</style>
+<p class="center-text">&#x1f3ac; Welcome to our movie review portal, where you can explore a wide catalog of films and share your thoughts.<br />⭐ Select a movie, leave your rating, and help others discover what’s worth watching.<br />&#x1f465; Join the community of film lovers and make your opinion count!</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -32,7 +41,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Media Review</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -41,14 +50,14 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
-        <no_save_as_draft>false</no_save_as_draft>
+        <no_save_as_draft>true</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
-        <picture/>
+        <picture>bc5d0417930cc7100b6db5edfaba103f</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
 * `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
@@ -81,22 +90,22 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></script>
-        <short_description/>
+        <short_description>Rate and review your favorite movies here!</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-08 19:19:19</sys_created_on>
         <sys_id>06d967fe934847100b6db5edfaba1072</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>Media Review</sys_name>
         <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
         <sys_update_name>sc_cat_item_producer_06d967fe934847100b6db5edfaba1072</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-04-09 13:26:29</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 18:34:36</sys_updated_on>
         <table_name>x_1960263_nowflix_review</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +113,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>41</version>
+        <version>50</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

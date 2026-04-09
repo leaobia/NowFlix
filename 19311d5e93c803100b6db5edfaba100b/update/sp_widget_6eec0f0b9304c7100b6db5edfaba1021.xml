@@ -7,19 +7,36 @@
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>.poster_holder {&#13;
-&#13;
-	display:flex;&#13;
-&#13;
-  	justify-content: center;&#13;
-&#13;
+  display: flex;&#13;
+  justify-content: center;&#13;
+  align-items: center;&#13;
 }&#13;
- &#13;
+&#13;
 #poster_image {&#13;
-&#13;
-width: 300px;&#13;
-&#13;
+  width: 300px;&#13;
+  border-radius: 8px;&#13;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);&#13;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;&#13;
+  animation: fadeIn 0.8s ease forwards;&#13;
 }&#13;
- </css>
+&#13;
+#poster_image:hover {&#13;
+  transform: scale(1.05);&#13;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);&#13;
+}&#13;
+&#13;
+/* Animação de entrada */&#13;
+@keyframes fadeIn {&#13;
+  from {&#13;
+    opacity: 0;&#13;
+    transform: translateY(15px);&#13;
+  }&#13;
+  to {&#13;
+    opacity: 1;&#13;
+    transform: translateY(0);&#13;
+  }&#13;
+}&#13;
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -45,14 +62,14 @@ width: 300px;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-09 11:51:02</sys_created_on>
         <sys_id>6eec0f0b9304c7100b6db5edfaba1021</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Poster</sys_name>
         <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
         <sys_update_name>sp_widget_6eec0f0b9304c7100b6db5edfaba1021</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 14:04:11</sys_updated_on>
+        <sys_updated_on>2026-04-09 16:08:08</sys_updated_on>
         <template><![CDATA[<div class="poster_holder">
 <img id="poster_image" />
 </div>]]></template>
