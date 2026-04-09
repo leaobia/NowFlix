@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Media Review">06d967fe934847100b6db5edfaba1072</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 19:20:03</sys_created_on>
+        <sys_id>ba7aab32938847100b6db5edfaba1063</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Media Review</sys_name>
+        <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ba7aab32938847100b6db5edfaba1063</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 19:20:03</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
