@@ -3,7 +3,15 @@
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element default="0" label="IMDB rating" max_length="40" name="imdb_rating" type="float"/>
-        <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
+        <element choice="1" label="Release Date" max_length="255" name="release_date" type="glide_date">
+            <choice>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Integration" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Media Not Found" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="2" value="3"/>
+            </choice>
+        </element>
         <element label="Poster" max_length="1024" name="poster" type="url"/>
         <element label="Country" max_length="250" name="country" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
@@ -15,12 +23,28 @@
         </element>
         <element label="Language" max_length="250" name="language" type="string"/>
         <element label="Genre" max_length="1024" name="genre" reference="x_1960263_nowflix_genre" type="glide_list"/>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element label="Sinopse" max_length="4000" name="sinopse" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Submited" sequence="200" value="2"/>
+            </choice>
+        </element>
         <element default="0" label="Avarage rating" max_length="255" name="avarage_rating" type="float"/>
         <element label="Production" max_length="250" name="production" type="string"/>
         <element label="Writers" max_length="4001" name="writers" type="string"/>
         <element label="Website" max_length="1024" name="website" type="url"/>
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
+        <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integrating" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Starting" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Media Not Found" sequence="500" value="7"/>
+            </choice>
+        </element>
         <element label="Category" max_length="40" name="category" type="string"/>
     </element>
 </database>
