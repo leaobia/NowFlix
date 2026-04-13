@@ -2,21 +2,21 @@
     <sys_ui_formatter action="INSERT_OR_UPDATE">
         <active>true</active>
         <angular_module/>
-        <formatter>Process Flow</formatter>
-        <name>review_process_flow</name>
+        <formatter>process_flow.xml</formatter>
+        <name>Process Flow</name>
         <seismic_component/>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-13 16:14:38</sys_created_on>
-        <sys_id>e2cfe868939443500b6db5edfaba10b4</sys_id>
+        <sys_created_on>2026-04-13 20:38:12</sys_created_on>
+        <sys_id>a05c252493dc43500b6db5edfaba103b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>review_process_flow</sys_name>
+        <sys_name>Process Flow</sys_name>
         <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
-        <sys_update_name>sys_ui_formatter_e2cfe868939443500b6db5edfaba10b4</sys_update_name>
+        <sys_update_name>sys_ui_formatter_a05c252493dc43500b6db5edfaba103b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 16:14:38</sys_updated_on>
+        <sys_updated_on>2026-04-13 20:38:12</sys_updated_on>
         <table>x_1960263_nowflix_review</table>
         <type>formatter</type>
     </sys_ui_formatter>
