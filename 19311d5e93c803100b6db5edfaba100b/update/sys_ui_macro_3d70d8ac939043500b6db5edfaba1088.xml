@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>poster_macro</name>
+        <scoped_name>x_1960263_nowflix_poster_macro</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-13 13:58:57</sys_created_on>
+        <sys_id>3d70d8ac939043500b6db5edfaba1088</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>poster_macro</sys_name>
+        <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
+        <sys_update_name>sys_ui_macro_3d70d8ac939043500b6db5edfaba1088</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-13 14:55:29</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <div style="width: 100%; display:flex; justify-content:center;">
+        <img src="" id="poster_image" style="width: 300px;" />
+    </div>
+ 
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
