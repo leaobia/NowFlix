@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide or Show Edit Button</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (g_form.getValue('state') != 'draft') {
+        setTimeout(function() {
+            var btn = document.querySelector('[aria-label="Edit"]');
+            if (btn) {
+                btn.style.display = 'none';
+            }
+        }, 500);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:15:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0a3c5a193984b500b6db5edfaba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide or Show Edit Button</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
+        <sys_update_name>sys_script_client_c0a3c5a193984b500b6db5edfaba10b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:15:13</sys_updated_on>
+        <table>x_1960263_nowflix_media</table>
+        <type/>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</application>
+        <file_path/>
+        <instance_id>03e1a355eb112a5c3a48f459bad0cd3a</instance_id>
+        <instance_name>dev341521</instance_name>
+        <name>sys_script_client_c0a3c5a193984b500b6db5edfaba10b3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hide or Show Edit Button&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    if (g_form.getValue('state') != 'draft') {
+        setTimeout(function() {
+            var btn = document.querySelector('[aria-label="Edit"]');
+            if (btn) {
+                btn.style.display = 'none';
+            }
+        }, 500);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-16 20:15:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c0a3c5a193984b500b6db5edfaba10b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide or Show Edit Button&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NowFlix" source="x_1960263_nowflix"&gt;19311d5e93c803100b6db5edfaba100b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NowFlix"&gt;19311d5e93c803100b6db5edfaba100b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c0a3c5a193984b500b6db5edfaba10b3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-16 20:15:13&lt;/sys_updated_on&gt;&lt;table&gt;x_1960263_nowflix_media&lt;/table&gt;&lt;type/&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2026620702</payload_hash>
+        <record_name>Hide or Show Edit Button</record_name>
+        <reverted_from/>
+        <source>abed519a930c03100b6db5edfaba10e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:15:13</sys_created_on>
+        <sys_id>cdd34da193984b500b6db5edfaba10f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d97eef7a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:15:13</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c9d34da194984b50d5266bdefde4baf0</update_guid>
+        <update_guid_history>c9d34da194984b50d5266bdefde4baf0:2026620702</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:18:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>208ced36e9cd48628851000aa087a179</sys_id>
+        <sys_metadata>c0a3c5a193984b500b6db5edfaba10b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide or Show Edit Button</sys_name>
+        <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
+        <sys_parent display_value="Media">1b2229aa93c883100b6db5edfaba102f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
+        <sys_scope_delete display_value="">1c4c690a20ad4f0897f9e226c0f08e40</sys_scope_delete>
+        <sys_update_name>sys_script_client_c0a3c5a193984b500b6db5edfaba10b3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c0a3c5a193984b500b6db5edfaba10b3">cdd34da193984b500b6db5edfaba10f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:18:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

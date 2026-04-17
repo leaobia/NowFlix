@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="INSERT_OR_UPDATE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition><![CDATA[var answer ;
+ 
+ 
+if (parent.stat0==1) {
+ 
+   answer = false;
+ 
+ 
+}
+ 
+ 
+else {
+ 
+   answer = true;
+ 
+ 
+}
+ 
+answer ;]]></edit_condition>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_1960263_nowflix_media</name>
+        <new_condition><![CDATA[var answer ;
+ 
+ 
+if (parent.stat0==3) {
+ 
+   answer = true;
+ 
+ 
+}
+ 
+ 
+else {
+ 
+   answer = false;
+ 
+ 
+}
+ 
+answer ;]]></new_condition>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>false</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>false</omit_new_button>
+        <omit_related_list_count>false</omit_related_list_count>
+        <related_list>x_1960263_nowflix_m2m_media_actor.x_1960263_nowflix_media</related_list>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 13:07:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa3bac759354cb500b6db5edfaba10c4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_1960263_nowflix_media</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
+        <sys_update_name>sys_ui_list_control_aa3bac759354cb500b6db5edfaba10c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 13:20:41</sys_updated_on>
+    </sys_ui_list_control>
+</record_update>
