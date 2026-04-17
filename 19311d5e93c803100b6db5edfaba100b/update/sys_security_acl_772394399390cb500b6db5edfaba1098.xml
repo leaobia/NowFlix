@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow list_edit for all fields in x_1960263_nowflix_media, if the ACL script returns true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1960263_nowflix_media.*</name>
+        <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
+        <script><![CDATA[answer = false;]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 11:27:50</sys_created_on>
+        <sys_id>772394399390cb500b6db5edfaba1098</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1960263_nowflix_media.*</sys_name>
+        <sys_package display_value="NowFlix" source="x_1960263_nowflix">19311d5e93c803100b6db5edfaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowFlix">19311d5e93c803100b6db5edfaba100b</sys_scope>
+        <sys_update_name>sys_security_acl_772394399390cb500b6db5edfaba1098</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 11:35:39</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
